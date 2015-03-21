@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:padding="5dp" >
+ 
+    <TextView
+        android:id="@+id/action_dialog_detail"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp" >
+    </TextView>
+    
+    <ListView 
+        android:id="@+id/action_list_view"
+        android:layout_below="@+id/action_dialog_detail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <Button
+        android:id="@+id/action_dialog_btnDig"
+        android:layout_below="@+id/action_list_view"
+        android:layout_alignParentRight="true"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="Dig" />
+    
+    <Button
+        android:id="@+id/action_dialog_btnOK"
+        android:layout_below="@+id/action_dialog_btnDig"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="OK" />
+
+</RelativeLayout>

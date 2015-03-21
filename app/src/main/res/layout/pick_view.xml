@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:minWidth="250dp"
+    android:orientation="vertical"
+    android:background="@android:color/black" >
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose to pick item into your bag"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/pick_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+
+	<Button
+		android:id="@+id/pick_btnClose"
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:layout_gravity="center"
+		android:text="Close" />
+	
+</LinearLayout>

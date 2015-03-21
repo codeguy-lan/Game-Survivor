@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:background="@android:color/black" >
+
+    <TextView
+        android:id="@+id/cresult_item_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp" >
+    </TextView>
+    
+    <ImageView
+        android:id="@+id/cresult_item_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center" >
+    </ImageView>
+    
+    <TextView
+        android:id="@+id/cresult_item_detail"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12dp" >
+    </TextView>
+    
+	<RelativeLayout
+		android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal" >
+	    
+	    <Button
+	        android:id="@+id/cresult_btnSet"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentLeft="true"
+	        android:text="SET!" >
+        </Button>
+        
+	    <Button
+	        android:id="@+id/cresult_btnTake"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentLeft="true"
+	        android:text="TAKE!" >
+        </Button>
+	    
+	    <Button
+	        android:id="@+id/cresult_btnCancel"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:text="Cancel" >
+        </Button>
+        
+    </RelativeLayout>
+</LinearLayout>

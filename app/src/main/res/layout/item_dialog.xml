@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:padding="5dp" >
+ 
+    <TextView
+        android:id="@+id/item_dialog_detail"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp" >
+    </TextView>
+    
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    android:padding="5dp" >
+	    
+	    <Button
+	        android:id="@+id/item_dialog_btn1"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentLeft="true"
+	        android:text="use" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/item_dialog_btn2"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_centerInParent="true"
+	        android:text="drop" />
+
+	    <Button
+	        android:id="@+id/item_dialog_btn3"
+	        android:layout_width="80dp"
+	        android:layout_height="50dp"
+	        android:layout_alignParentRight="true"
+	        android:text="cancel" />
+	    	
+	</RelativeLayout>
+</LinearLayout>

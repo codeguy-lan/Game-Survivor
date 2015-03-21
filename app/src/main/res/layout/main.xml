@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/info_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="20dp"
+		android:layout_alignParentTop="true"
+	    layout="@layout/status_bar" />
+    
+	<FrameLayout
+	    android:layout_below="@id/info_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    
+	    <lan.survivor.view.GameView
+	      android:id="@+id/renderer"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"/>
+	     
+	</FrameLayout>
+
+	<lan.survivor.view.EffectView
+	    android:id="@+id/effectView"
+	    android:layout_below="@id/info_bar"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+	
+	<include
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+		android:layout_alignParentBottom="true"
+	    layout="@layout/control_panel" />
+	
+	<ViewFlipper
+	    android:id="@+id/main_sideMenu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true" >
+		
+	    <RelativeLayout
+		    android:id="@+id/main_sideView_min"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+			<ImageButton
+			    android:id="@+id/main_btnSide_min"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:background="@drawable/sidemenu_min" />
+		</RelativeLayout>
+	    
+		<RelativeLayout
+		    android:id="@+id/main_sideView_max"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" >
+		    
+		    <LinearLayout
+		        android:id="@+id/side_buttons"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+	    		android:background="@android:color/darker_gray"
+			    android:orientation="vertical" >
+		    
+		        <Button
+			        android:id="@+id/btnEquip"
+			        android:layout_width="80dp"
+			        android:layout_height="50dp"
+			        android:text="Equip" />
+			    
+			    <Button
+			        android:id="@+id/btnCreate"
+			        android:layout_width="80dp"
+			        android:layout_height="50dp"
+			        android:text="Create" />
+			    
+		    </LinearLayout>
+		    
+		    <ImageButton
+			    android:id="@+id/main_btnSide_max"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_toLeftOf="@id/side_buttons"
+			    android:background="@drawable/sidemenu_max" />
+		    
+		</RelativeLayout>
+		
+	</ViewFlipper>
+
+	
+</RelativeLayout>

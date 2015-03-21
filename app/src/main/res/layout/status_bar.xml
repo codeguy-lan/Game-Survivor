@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+        <TextView
+            android:id="@+id/text_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginRight="5dp" >
+        </TextView>
+        <ImageView
+            android:id="@+id/img_day"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="5dp" >
+        </ImageView>
+        <TextView
+            android:id="@+id/text_worldtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginRight="5dp" >
+        </TextView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="HP:" />
+        <TextView
+            android:id="@+id/text_stamina"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="SP:" />
+        <TextView
+            android:id="@+id/text_fatigue"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/food" />
+        <TextView
+            android:id="@+id/text_food"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/water" />
+        <TextView
+            android:id="@+id/text_water"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp" />
+    </LinearLayout>
+</RelativeLayout>

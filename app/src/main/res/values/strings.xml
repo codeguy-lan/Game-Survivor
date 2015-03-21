@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Survivor</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SURVIVOR</string>
+	<string name="btnGameStart">Game Start</string>
+    <string name="btnContinue">Continue</string>
+	<string name="btnGameEnd">Game End</string>
+	<string name="optionMenuFinish">Exit</string>
+	<string name="optionMenuPause">Pause</string>
+	
+	<!-- action information toast text -->
+	<string name="toast_no_action">なんもない・・・</string>
+	<string name="toast_no_use">なにも起こらなかった・・・</string>
+	<string name="toast_no_creation">造れそうな物はない・・・</string>
+	<string name="toast_drop_creation">バッグがいっぱいなので地面に置きました</string>
+	<string name="toast_cancel_creation">前の地面に置けません。空地を確保してください。</string>
+	<string name="toast_no_drink">飲めません・・・</string>
+	<string name="toast_bag_full">バッグがいっぱいです・・・</string>
+	<string name="toast_fire_putoff">火が消されました！</string>
+	<string name="toast_fire_puton">火をつけた！！プギャーーー</string>
+	<string name="toast_fire_puton_fail">ん？火をつけるに何か物足りません？</string>
+	<string name="toast_fire_process_fail">火がないから加工できません・・・</string>
+	<string name="toast_fill_water">水をいっぱい取りました！</string>
+    <string name="toast_dig_well">水が出て池になりました！</string>
+    <string name="toast_drink_water">水をいっぱい飲みなした！</string>
+	
+	<string name="action_take_water">水を取りますか？</string>
+	<string name="action_dig">地面を掘りますか？（体力が消耗されます）</string>
+    <string name="action_fishing">魚を釣りますか？</string>
+    
+    
+	<!-- terrain -->
+	<string name="name_terrain_sea">Sea</string>
+	<string name="detail_terrain_sea">海、水が綺麗で、魚もあるかもしれない。</string>
+    <string name="name_terrain_sand">Sand</string>
+    <string name="detail_terrain_sand">砂浜。</string>
+    <string name="name_terrain_dirt">Dirt</string>
+    <string name="detail_terrain_dirt">土。</string>
+    <string name="name_terrain_grass">Grass</string>
+    <string name="detail_terrain_grass">芝。</string>
+    <string name="name_terrain_grassland">Grassland</string>
+    <string name="detail_terrain_grassland">草原。</string>
+    <string name="name_terrain_rocks">Rocks</string>
+    <string name="detail_terrain_rocks">石。</string>
+    <string name="name_terrain_snow">Snow</string>
+    <string name="detail_terrain_snow">雪。</string>
+	
+	<!-- building -->
+	<string name="fire_on_text">火があればいろいろ加工できそうだ・・・</string>
+	<string name="fire_off_text">火が消された。火を起こせる物を使えばまた燃えれそうだ。</string>
+	<string name="well_text">掘った井戸。貴重な淡水が湧いてきます。</string>
+    <string name="shelter_text">木でできた小屋、休憩できる場所。</string>
+
+</resources>

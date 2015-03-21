@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/control_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/black" >
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/move_panel" />
+
+    <Button
+        android:id="@+id/btnBag"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Bag" />
+    
+    <Button
+        android:id="@+id/btnPick"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Pick" />
+    
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_toLeftOf="@id/btnBag"
+        android:layout_alignParentTop="true"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Action" />
+    
+    <Button
+        android:id="@+id/btnSleep"
+        android:layout_toLeftOf="@id/btnBag"
+        android:layout_alignParentBottom="true"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Sleep" />
+    
+</RelativeLayout>
